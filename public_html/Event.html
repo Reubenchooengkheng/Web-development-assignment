@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Event</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+              rel="stylesheet" 
+              integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+              crossorigin="anonymous">
+        
+        <style>
+         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,800&display=swap');
+            
+             .root {
+                --primary: #3155e7;
+                --primary: #2045d6;
+                --black: #010101;
+                --gray-1: #788190;
+                --gray-2: #d3d4db;
+                --white: #FFFFFF;
+                --body: #fefefe;
+             }
+             
+             .bg-gradiant{
+             height: 100vh;
+             width: 100%;
+             background-image: linear-gradient(turquoise,blueviolet)
+            }
+             
+             .navbar {
+                padding: 32px 0;
+             }
+             
+             .nav-link {
+                margin-left: 41px;
+                font-size: 16px;
+                color: var(--gray-1);
+             }
+             
+             .navbar-nav .nav-link.active {
+                 font-weight: bold;
+                 color: var(--black);
+             }
+             
+             .event{
+                 margin: 0px auto;
+             }
+             
+             .event-content{
+                 box-shadow: 10px 10px 10px -10px;
+                 rgba(0,0,0,0.3)
+                 inset 10px 10px 10px -10px
+                 rgba(0,0,0,0.5);
+                 padding: 30px;
+                 cursor: pointer;
+                 background: #fff;
+                 margin-top: -70px;
+                 margin-left: 60px;
+                 position: absolute;
+             }
+             
+             .event content h4{
+                 font-weight: bold;
+                 font-style: italic;
+                 font-size: 20px;
+                 margin-bottom: 5px;
+             }
+             
+             .event-content span{
+                 font-style: italic;
+                 font-size: 15px;
+             }
+             
+             .event-content a{
+                 text-transform: uppercase;
+                 font-weight: bold; 
+             }
+             
+             .event img{
+                 transition: 0.6s;
+             }
+             
+             .event img:hover{
+                 transform: scale(1.1);
+                 cursor: pointer;
+             }
+             
+             .event .col-sm-5{
+                 margin-top: 5px;
+                 margin-bottom: 160px
+             }
+             
+             .event .offset-sm-1{
+                 margin: 0px 150px 0px 0px
+             }
+        </style>
+    </head>
+    <body class="bg-gradiant">
+        <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="tickets.png" id="logo" width="100px" height="100px" align="left" style="margin-left: 5px; margin-bottom: 5px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link me-5" href="About us.html">About us</a>
+        <a class="nav-link me-5" href="Event.html">Event</a>
+        <a class="nav-link me-5" href="#">Profile</a>
+      </div>
+    </div>
+  </div>
+</nav>
+        
+        <div class="container event">
+            
+            <div class="row justify-content-left text-center">
+                
+                <div class="offset-sm-1 col-sm-5">
+                <img src="images.jpg" class="img-fluid" alt="">
+                <div class="event-content">
+                    <h4>Charlie Puth Event</h4>
+                    <span>30 NOV 2022,6p.m.<br>bukit jalil mall</span><br>
+                    <a href="">join</a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center text-center">
+                
+                <div class="offset-sm-auto col-sm-4">
+                <img src="images.jpg" class="img-fluid" alt="">
+                <div class="event-content">
+                    <h4>Justin Event</h4>
+                    <span>16 DEC 2022,5p.m.<br>Gurney paragon mall</span><br>
+                    <a href="">join</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+        crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" 
+        crossorigin="anonymous">
+        </script>
+    </body>
+</html>
