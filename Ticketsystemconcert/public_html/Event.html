@@ -46,63 +46,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                  font-weight: bold;
                  color: var(--black);
              }
-             
-             .grid-container {
-                 gap: 50px 100px;
-                 grid-template-columns: auto auto auto;
-                 padding: 10px;
-             }
-
-             .grid-item {
-                 padding: 20px;
-                 font-size: 30px;
+            
+             .event h2{
                  text-align: center;
+                 margin-bottom: 50px;
              }
              
-             
-             .events {
-               margin-top: 10rem;
-               padding: 0 50px;
+             .button.btn btn-primary{
+                 margin-top: 50px;
              }
-             
-             .events h2 {
-                 text-align: center;
-             }
-             
-             .event_container {
-                 display: grid;
-                 grid-template-columns: repeat(3, 1fr);
-                 gap: 2rem;
-                 
-             }
-             
-             .event {
-                 background: var(--gray-1);
-                 text-align: center;
-                 border: 1px solid transparent;
-                 transition: 2s;
-             }
-             
-             .event:hover {
-                 background: transparent;
-                 border-color: var(--primary)
-             }
-             
-             .event_info {
-                 padding: 2rem;
-             }
-             
-             .event_info p {
-                 margin: 1.2rem 0 2rem;
-                 font-size: 0.9rem;
-             }
-             
-             *{
-                 margin: 0;
-                 padding: 0;
-                 box-sizing: border-box;
-             }
-             
              .body{
                  background: #fcfcfc;
                  text-align: center;
@@ -115,6 +67,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                  font-family: "Open Sans";
                  padding-top: 40px;
                  color: #fff;
+                 margin-top: 50px;
              }
              
              .footer-content{
@@ -178,9 +131,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
                  font-weight: bold;
                  line-height: 24px;
              }
-             
-
-             
             </style>
     </head>
     
@@ -203,91 +153,42 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     </div>
   </div>
 </nav>
-
         <section id="events" class="event section-padding">
             <h2>Events</h2>
-            <div class="grid-container">
-            <div class="container text-center">
-            <div class="row g-2">    
-            <div class="container events_container">
-                    <div class="col-6">
-                    <div class="p-3 border bg-light">
-                    <article class="events">
-                    <div class="course_image">
-                        <img src="">
-                   </div>
-                    <div class="event_info">
-                        <h4>Charlie puth</h4>
-                        <p class="info">
-                            KL sports center
-                        </p>
-                        <p class="info">
-                            SAT, NOV 26, 5.00 PM
-                        </p>
-                        <p class="info description">
-                            Come and join the charlie puth event.
-                        </p>
-                        <a href="#" class="btn btn-primary">Book now</a>
-                        </div>
-                        
-                            <div class="grid-item"></div>
-                    </article>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="channels4_profile.png" alt="Charlie puth" class-img-top> 
+                            <div class="card-body">
+                                <h5 class="card-title">Charlie puth</h5>
+                                <p class="card-text"></p>Come and enjoy the event of charlie puth.
+                                <button type="button" class="btn btn-primary">Buy now</button>
+                            </div>
+                        </div>   
                     </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="264x264.jpg" alt="billie eilish" class-img-top> 
+                            <div class="card-body">
+                                <h5 class="card-title">billie eilish</h5>
+                                <p class="card-text"></p>Come and enjoy the event of billie eilish.
+                                <button type="button" class="btn btn-primary">Buy now</button>
+                            </div>
+                        </div>  
                     </div>
-                
-                    <div class="col-6">
-                    <div class="p-3 border bg-light">
-                    <article class="events">
-                    <div class="course_image">
-                        <img src="">
-                   </div>
-                    <div class="event_info">
-                        <h4>Charlie puth</h4>
-                        <p class="info">
-                            KL sports center
-                        </p>
-                        <p class="info">
-                            SAT, NOV 26, 5.00 PM
-                        </p>
-                        <p class="info description">
-                            Come and join the charlie puth event.
-                        </p>
-                        <a href="#" class="btn btn-primary">Book now</a>
-                        </div>
-                        <div class="grid-item"></div>
-                    </article>
-                    </div>
-                    </div>
-                
-                
-            
-                    <div class="col-6">
-                    <div class="p-3 border bg-light">
-                    <article class="events">
-                    <div class="course_image">
-                        <img src="">
-                   </div>
-                    <div class="event_info">
-                        <h4>Charlie puth</h4>
-                        <p class="info">
-                            KL sports center
-                        </p>
-                        <p class="info">
-                            SAT, NOV 26, 5.00 PM
-                        </p>
-                        <p class="info description">
-                            Come and join the charlie puth event.
-                        </p>
-                        <a href="#" class="btn btn-primary">Book now</a>
-                        </div>
-                        <div class="grid-item"></div>
-                    </article>
-                    </div>
-                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="BLACKPINK-_The_Album.png" alt="black pink" class-img-top> 
+                            <div class="card-body">
+                                <h5 class="card-title">black pink</h5>
+                                <p class="card-text"></p>Come and enjoy the event of black pink.
+                                <button type="button" class="btn btn-primary">Buy now</button>
+                            </div>
+                        </div>  
                     </div>
                 </div>
             </div>
-            </div>    
            </section>
         
         <footer>
